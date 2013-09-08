@@ -3,6 +3,6 @@ class HelloController < ApplicationController
     end
 
   def from_controller
-    @var = "Hello World from a rails controller!"
+    @hello = "Hello World from a rails controller!"
   end
 end
